@@ -13,6 +13,7 @@ if ( $deployment == 'blue') {
   $color = imagecolorallocate($im, 0, 0, 255);
 }
 
+//added comment to force refresh
 // Draw a filled rectangle
 imagefilledrectangle($im, 0, 0, 199, 199, $color);
 
